@@ -3,10 +3,6 @@ import random
 import unicodedata
 
 word=(random.choice(open('fr.txt').read().split()).strip())
-print(word)
-word = unicodedata.normalize('NFD', word).encode('ascii', 'ignore').decode("utf-8")
-
-print(word)
 wordLen=len(word)
 wordList=list(word)
 wordFind=[]
