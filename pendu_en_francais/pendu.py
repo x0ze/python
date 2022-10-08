@@ -44,5 +44,5 @@ print()
 if maxAttempt != 0:
     print("Gagné  en " + str(score) + " coups !")
 else:
-    print("Dommage vous avez perdu ... le mot était " + word)
+    print("Dommage vous avez perdu ... le mot était " + word + " !")
 print()
